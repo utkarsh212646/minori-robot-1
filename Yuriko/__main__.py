@@ -483,9 +483,9 @@ def yurikorobot_about_callback(update, context):
             f"\n*SETUP ASSISTANT*"
             f"\n\n✗ `1.) first, add me to your group.`"
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
-            f"\n\n✗ `3.) add` @ASSISTANTOFDARKVCPLAYER `to your group:`"
+            f"\n\n✗ `3.) add` @DARK_LEGEND088 `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Hinami Music And Join Support Group @Hinami_Support*"
+            f"\n\n✗ *Lets Enjoy The Minori Music And Join Support Group @Hinami_Support*"
             f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ INDRA!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -537,13 +537,13 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"<b> CREDIT FOR  Hinami DEV'S</b>\n"
             
-            f"\n`✗ Here Some Developers Helping in Making The Yuriko Bot`",
+            f"\n`✗ Here Some Developers Helping in Making The Minori Bot`",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
                     InlineKeyboardButton(text="Dipu", url="t.me/DIPUID"),
-                    InlineKeyboardButton(text="Dark Legend", url="t.me/@DARK_LEGEND088"),
+                    InlineKeyboardButton(text="Dark Legend", url="t.me/DARK_LEGEND088"),
                  ],
                  [
                   
@@ -560,7 +560,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *Hinamirobot*
+            text=""" Hi..😻 I'm *Minori Chan*
                  \nHere is the [🔥Source Code Is Private🔥](https://t.me/Hinami_Support) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
